@@ -1,2 +1,5 @@
 [phases.setup]
 apt_packages = ["ffmpeg"]
+
+[phases.start]
+cmd = "n8n start"
